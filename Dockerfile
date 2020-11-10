@@ -1,6 +1,8 @@
 FROM python:alpine
 COPY . .
 
+
+
 ENV MYSQL_DATABASE_HOST database
 ENV MYSQL_DATABASE_USER clarusway
 ENV MYSQL_DATABASE_PASSWORD Clarusway
